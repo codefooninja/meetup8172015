@@ -1,0 +1,59 @@
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    
+    border:3px solid #8AC007;
+    
+    width: 200px;
+    margin: 0 auto;
+}
+input[type=text] {
+  border: 1px dotted #999;
+  border-radius: 0;
+  width:99%;
+  -webkit-appearance: none;
+}
+input[type=button]{
+    background-color: #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+input {
+    height: 2.5em; /* for IE */
+    vertical-align: middle; /* This is optional but it makes legacy IEs look better */
+}
+input[type=text] {
+  border: 1px dotted #999;
+  border-radius: 0;
+
+  -webkit-appearance: none;
+}
+textarea {
+  display : block;
+
+  padding : 10px;
+  margin  : 10px 0 0 -10px;
+  width   : 340px;
+  height  : 360px;
+
+  resize  : none;
+  overflow: auto;
+}
+h1 {
+  position : absolute;
+  left : 415px;
+  top  : 185px;
+ 
+  font : 1em "typewriter", sans-serif;
+}
